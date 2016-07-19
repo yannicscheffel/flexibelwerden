@@ -1,14 +1,30 @@
 html {
-    color: #333;
+    color: #828282;
     font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
 }
 
+a { color: #ff8600; }
+
+a:visited {
+	color: #ff8600;
+}
+a:hover {
+	color: #ff00e3;
+}
 nav {
 	font-size: 0.75rem;
-	color: #1656D4;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+nav a{
+	color: #1656D4;
+}
+
+nav a:visited{
+	color: #1656D4;
 }
 
 .menu a{
@@ -22,25 +38,59 @@ nav {
 .logo img{
 	max-width: 320px;
 	width: 90%;
-	margin: 10px auto;
+	margin: 0.6rem auto;
 
 }
 
 .episode {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: #f7f7f7;
+	padding: 1.25rem;
+	border-radius: 5px;
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 900px;
+	max-width: 750px;
 }
 
+
+.episode p{ margin-top: 2em; }
+
+
 h1 {
+	font-weight: 200;
 	font-size: 1.5rem;
-	color: #333;
+	color: #828282;
+	margin: 1rem 0 1.5rem 0;
 }
 ul {
 	font-size: 0.85rem;
+	margin-left: 0.2rem;
+	padding-left: 1.4rem;
+}
+
+li {
+	margin-bottom: 0.4rem; 
 
 }
+.beschreibung {
+margin-left:auto;
+margin-right:auto;
+}
+.beschreibung p{
+	margin-right: auto;
+	margin-left: auto;
+	color: #828282;
+	font-size: 1rem;
+	text-align: center;
+	max-width: 720px;
+}
+.beschreibung a{
+	text-decoration: none;
+}
+
+
 audio {
 	width: 100%;
 }
