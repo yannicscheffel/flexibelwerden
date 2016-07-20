@@ -4,16 +4,14 @@ html {
     line-height: 1.4em;
 }
 
-a { color: #ff8600; }
+a { color: #1656D4; }
 
 a:visited {
-	color: #ff8600;
+	color: #1656D4;
 }
-a:hover {
-	color: #ff00e3;
-}
+
 nav {
-	font-size: 0.75rem;
+	font-size: 0.9rem;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -23,16 +21,20 @@ nav a{
 	color: #1656D4;
 }
 
-nav a:visited{
+nav a:visited {
 	color: #1656D4;
 }
+nav a:visited :hover {
+	color: #ff00e3;
+}
 
-.menu a{
+.menu {
+	color: #1656D4;
+}
+.menu a{ 
 	text-decoration: none;
-	margin-left: auto;
-	margin-right: auto;
 	display: inline-block;
-	margin: 0 5;
+	margin: 0 1.5rem;
 }
 
 .logo img{
@@ -43,15 +45,15 @@ nav a:visited{
 }
 
 .episode {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 	background-color: #f7f7f7;
 	padding: 1.25rem;
 	border-radius: 5px;
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 750px;
+	max-width: 800px;
 }
 
 
@@ -61,7 +63,7 @@ nav a:visited{
 h1 {
 	font-weight: 200;
 	font-size: 1.5rem;
-	color: #828282;
+	color: #1656D4;
 	margin: 1rem 0 1.5rem 0;
 }
 ul {
@@ -78,6 +80,7 @@ li {
 margin-left:auto;
 margin-right:auto;
 }
+
 .beschreibung p{
 	margin-right: auto;
 	margin-left: auto;
@@ -85,6 +88,7 @@ margin-right:auto;
 	font-size: 1rem;
 	text-align: center;
 	max-width: 720px;
+	margin-bottom: 2rem;
 }
 .beschreibung a{
 	text-decoration: none;
@@ -94,3 +98,14 @@ margin-right:auto;
 audio {
 	width: 100%;
 }
+
+
+
+@media (min-width: 900px) {
+
+	.menu {
+	margin: 0.5rem auto;
+	font-size: 1rem;
+	}
+}
+
