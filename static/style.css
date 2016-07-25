@@ -2,9 +2,8 @@ html {
     color: #828282;
     font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
     line-height: 1.4em;
-    background-image: url(background.png);
-    background-size: cover;
-}
+    background:linear-gradient(to bottom left, #ff6f16, #ff0bcf);
+    }
 
 a { color: #1656D4; }
 
