@@ -5,7 +5,9 @@ html {
     background:linear-gradient(to bottom left, #ff6f16, #ff0bcf);
     }
 
-a { color: #1656D4; }
+a { 
+	color: #1656D4; 
+}
 
 a:visited {
 	color: #1656D4;
@@ -25,6 +27,7 @@ nav a{
 nav a:visited {
 	color: #1656D4;
 }
+
 nav a:visited :hover {
 	color: #ff00e3;
 }
@@ -32,17 +35,20 @@ nav a:visited :hover {
 .menu {
 	color: #1656D4;
 }
+
 .menu a{ 
 	text-decoration: none;
 	display: inline-block;
 	margin: 0 1.5rem;
 }
+
 .impressum {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 800px;
 }
+
 .impressum a{ 
 	text-decoration: none;
 	display: block;
@@ -70,9 +76,9 @@ nav a:visited :hover {
 	max-width: 800px;
 }
 
-
-.episode p{ margin-top: 2em; }
-
+.episode p{ 
+	margin-top: 2em; 
+}
 
 h1 {
 	font-weight: 200;
@@ -80,6 +86,7 @@ h1 {
 	color: #1656D4;
 	margin: 1rem 0 1.5rem 0;
 }
+
 ul {
 	font-size: 0.85rem;
 	margin-left: 0.2rem;
@@ -88,8 +95,8 @@ ul {
 
 li {
 	margin-bottom: 0.4rem; 
-
 }
+
 .beschreibung {
 margin-left:auto;
 margin-right:auto;
@@ -104,24 +111,22 @@ margin-right:auto;
 	max-width: 720px;
 	margin-bottom: 2rem;
 }
+
 .beschreibung a{
 	text-decoration: none;
 }
-
 
 audio {
 	width: 100%;
 }
 
-
-
 @media (min-width: 900px) {
-
 	.menu {
 	margin: 0.5rem auto;
 	font-size: 1rem;
 	}
 }
+
 @media (max-width: 446px) {
 	.menu a{
 		margin: 0;
