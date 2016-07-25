@@ -1,12 +1,12 @@
 html {
-    color: #828282;
-    font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
-    line-height: 1.4em;
-    background:linear-gradient(to bottom left, #ff6f16, #ff0bcf);
-    }
+	color: #828282;
+	font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background:linear-gradient(to bottom left, #ff6f16, #ff0bcf);
+}
 
-a { 
-	color: #1656D4; 
+a {
+	color: #1656D4;
 }
 
 a:visited {
@@ -14,13 +14,14 @@ a:visited {
 }
 
 nav {
-	font-size: 0.9rem;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 3.5em;
+	font-size: 0.9rem;
+	text-align: center;
 }
 
-nav a{
+nav a {
 	color: #1656D4;
 }
 
@@ -36,7 +37,7 @@ nav a:visited :hover {
 	color: #1656D4;
 }
 
-.menu a{ 
+.menu a{
 	text-decoration: none;
 	display: inline-block;
 	margin: 0 1.5rem;
@@ -49,7 +50,7 @@ nav a:visited :hover {
 	max-width: 800px;
 }
 
-.impressum a{ 
+.impressum a{
 	text-decoration: none;
 	display: block;
 	float: right;
@@ -76,8 +77,8 @@ nav a:visited :hover {
 	max-width: 800px;
 }
 
-.episode p{ 
-	margin-top: 2em; 
+.episode p {
+	margin-top: 2em;
 }
 
 h1 {
@@ -94,15 +95,15 @@ ul {
 }
 
 li {
-	margin-bottom: 0.4rem; 
+	margin-bottom: 0.4rem;
 }
 
 .beschreibung {
-margin-left:auto;
-margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.beschreibung p{
+.beschreibung p {
 	margin-right: auto;
 	margin-left: auto;
 	color: #fff;
@@ -112,7 +113,7 @@ margin-right:auto;
 	margin-bottom: 2rem;
 }
 
-.beschreibung a{
+.beschreibung a {
 	text-decoration: none;
 }
 
@@ -122,13 +123,13 @@ audio {
 
 @media (min-width: 900px) {
 	.menu {
-	margin: 0.5rem auto;
-	font-size: 1rem;
+		margin: 0.5rem auto;
+		font-size: 1rem;
 	}
 }
 
 @media (max-width: 446px) {
-	.menu a{
+	.menu a {
 		margin: 0;
 	}
 }
