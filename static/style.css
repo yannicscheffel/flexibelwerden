@@ -71,7 +71,7 @@ nav a:visited :hover {
 	background-color: #f7f7f7;
 	padding: 1.25rem;
 	border-radius: 5px;
-	width: 90%;
+	/*width: 90%; */
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 800px;
